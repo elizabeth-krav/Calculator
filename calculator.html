@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+    <script src="calculator.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#032030"
+          fill-opacity="1"
+          d="M0,160L21.8,149.3C43.6,139,87,117,131,133.3C174.5,149,218,203,262,197.3C305.5,192,349,128,393,101.3C436.4,75,480,85,524,112C567.3,139,611,181,655,208C698.2,235,742,245,785,224C829.1,203,873,149,916,144C960,139,1004,181,1047,197.3C1090.9,213,1135,203,1178,202.7C1221.8,203,1265,213,1309,224C1352.7,235,1396,245,1418,250.7L1440,256L1440,0L1418.2,0C1396.4,0,1353,0,1309,0C1265.5,0,1222,0,1178,0C1134.5,0,1091,0,1047,0C1003.6,0,960,0,916,0C872.7,0,829,0,785,0C741.8,0,698,0,655,0C610.9,0,567,0,524,0C480,0,436,0,393,0C349.1,0,305,0,262,0C218.2,0,175,0,131,0C87.3,0,44,0,22,0L0,0Z"
+        ></path>
+      </svg>
+      <h1 class="center space">Calculator</h1>
+    </header>
+
+    <main>
+      <form action="#" method="GET">
+        <input
+          type="number"
+          class="form-control brder-radius space"
+          placeholder="Enter first number"
+          id="num1"
+          value="10"
+        />
+
+        <input
+          type="number"
+          class="form-control brder-radius space"
+          placeholder="Enter second number"
+          id="num2"
+          value="5"
+        />
+        <div class="container space">
+          <button class="btn btn-success brder-radius" id="plus">+</button>
+          <button class="btn btn-success brder-radius" id="minus">-</button>
+          <button class="btn btn-success brder-radius" id="multiply">*</button>
+          <button class="btn btn-success brder-radius" id="divide">/</button>
+        </div>
+
+        <button class="btn-outline-info brder-radius space" id="submit">
+          Count
+        </button>
+      </form>
+      <div class="result center">
+        <h4>Result:</h4>
+        <p id="result"></p>
+      </div>
+    </main>
+
+    <footer>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#032030"
+          fill-opacity="1"
+          d="M0,64L21.8,101.3C43.6,139,87,213,131,213.3C174.5,213,218,139,262,128C305.5,117,349,171,393,197.3C436.4,224,480,224,524,208C567.3,192,611,160,655,144C698.2,128,742,128,785,117.3C829.1,107,873,85,916,85.3C960,85,1004,107,1047,117.3C1090.9,128,1135,128,1178,149.3C1221.8,171,1265,213,1309,208C1352.7,203,1396,149,1418,122.7L1440,96L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"
+        ></path>
+      </svg>
+    </footer>
+  </body>
+</html>
